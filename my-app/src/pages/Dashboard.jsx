@@ -7,7 +7,11 @@ export default function Dashboard(){
     return(
         <div>
             <h1>DASHBOARD</h1>
-            <button onClick={()=> dispatch(login({user:"test"}))}>LOGIN</button>
+            <button className="login-button" onClick={() => dispatch(login({ user: "test" }))}>
+                LOGIN
+            </button>
+
+            
         </div>
     )
 }

@@ -4,7 +4,7 @@ import { fetchCourses } from "../features/userAPI";
 
 export default function Courses(){
     const dispatch = useDispatch()
-    const {Courses, loading} = useSelector({state}=>state.auth)
+    const {courses, loading} = useSelector((state)=>state.auth)
 
     useEffect(()=>{
         dispatch(fetchCourses())

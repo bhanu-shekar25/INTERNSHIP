@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+}
+
+
+nav {
+    background-color: #1f2937;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.logout-button {
+    margin-left: auto;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+
+.login-button, .logout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .logout-button:hover {
+    background-color: #45a049;
+}
+
+.login-button:focus, .logout-button:focus {
+    outline: none;
+}
